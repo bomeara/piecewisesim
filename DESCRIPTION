@@ -1,0 +1,9 @@
+Package: piecewisesim
+Type: Package
+Title: Does simulations in diversitree (later, others), stopping every certain amount of time
+Version: 1.0
+Date: 2015-06-29
+Author: Brian C. O'Meara
+Maintainer: Brian C. O'Meara <omeara.brian@gmail.com>
+Description: Simulations can sometimes run quite a long time. This will run for a certain time period, then gather all the surviving tips and rerun on them, perhaps in parallel.
+License: GPL (>2.0)

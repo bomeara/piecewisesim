@@ -1,0 +1,69 @@
+\name{phy}
+\alias{phy}
+\docType{data}
+\title{
+%%   ~~ data name/kind ... ~~
+}
+\description{
+%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+}
+\usage{data("phy")}
+\format{
+  The format is:
+List of 10
+ $ edge       : int [1:58, 1:2] 31 32 33 33 37 38 40 40 38 41 ...
+ $ Nnode      : int 29
+ $ tip.label  : chr [1:30] "sp7" "sp8" "sp10" "sp11" ...
+ $ tip.state  : Named num [1:30] 0 0 0 0 1 1 0 1 1 1 ...
+  ..- attr(*, "names")= chr [1:30] "sp7" "sp8" "sp10" "sp11" ...
+ $ node.label : chr [1:29] "nd1" "nd9" "nd10" "nd11" ...
+ $ node.state : Named num [1:29] 0 0 0 0 0 0 1 1 1 1 ...
+  ..- attr(*, "names")= chr [1:29] "nd1" "nd9" "nd10" "nd11" ...
+ $ edge.length: num [1:58] 33.23 2.4 12.5 1.39 2.68 ...
+ $ orig       :'data.frame':	67 obs. of  11 variables:
+  ..$ idx    : int [1:67] 2 3 4 6 9 11 12 14 16 17 ...
+  ..$ len    : num [1:67] 0.729 7.333 0.37 13.562 29.082 ...
+  ..$ parent : num [1:67] 1 1 2 4 3 6 11 12 14 14 ...
+  ..$ start  : num [1:67] 12.4 12.4 13.1 13.5 19.7 ...
+  ..$ state  : num [1:67] 0 0 0 0 0 0 0 0 0 0 ...
+  ..$ extinct: logi [1:67] FALSE FALSE FALSE FALSE FALSE FALSE ...
+  ..$ split  : logi [1:67] TRUE TRUE TRUE TRUE TRUE TRUE ...
+  ..$ idx2   : num [1:67] 41 42 43 44 45 46 47 48 49 50 ...
+  ..$ parent2: num [1:67] 40 40 41 43 42 44 46 47 48 48 ...
+  ..$ name   : chr [1:67] NA NA NA NA ...
+  ..$ name2  : chr [1:67] "nd2" "nd3" "nd4" "nd5" ...
+  ..- attr(*, "t")= num 60.5
+  ..- attr(*, "hist")='data.frame':	1 obs. of  6 variables:
+  .. ..$ idx : num 21
+  .. ..$ t   : num 48.7
+  .. ..$ from: num 0
+  .. ..$ to  : num 1
+  .. ..$ x0  : num 48
+  .. ..$ tc  : num 0.742
+ $ hist       :'data.frame':	1 obs. of  8 variables:
+  ..$ idx  : num 21
+  ..$ t    : num 48.7
+  ..$ from : num 0
+  ..$ to   : num 1
+  ..$ x0   : num 48
+  ..$ tc   : num 0.742
+  ..$ idx2 : int 37
+  ..$ name2: chr "nd14"
+ $ edge.state : num [1:76] 0 0 0 0 0 0 0 0 0 1 ...
+ - attr(*, "class")= chr "phylo"
+ - attr(*, "order")= chr "cladewise"
+}
+\details{
+%%  ~~ If necessary, more details than the __description__ above ~~
+}
+\source{
+%%  ~~ reference to a publication or URL from which the data were obtained ~~
+}
+\references{
+%%  ~~ possibly secondary sources and usages ~~
+}
+\examples{
+data(phy)
+## maybe str(phy) ; plot(phy) ...
+}
+\keyword{datasets}
